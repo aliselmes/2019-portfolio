@@ -267,6 +267,29 @@ article {
   flex-flow: row wrap;
 }
 
+/*About Section*/
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7A7C8B;
+  color: #F7F8FD;
+}
+
+#about .content-wrapper {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#about figure {
+  margin: 30px 0 20px 0;
+  width: 75%;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
