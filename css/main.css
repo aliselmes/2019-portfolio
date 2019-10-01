@@ -105,7 +105,7 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #3C6280;
+  color: #7A7C8B;
   font-size: 1em;
   line-height: normal;
 }
@@ -119,11 +119,11 @@ ul, ol {
 
 a {
   text-decoration: none;
-  color: #3C6280;
+  color: #7A7C8B;
 }
 
 a:hover {
-  color: #D8A44A;
+  color: #DAB9A8;
 }
 
 h1, h2, h3, h4 {
@@ -132,6 +132,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 2.5em;
+  margin: 0;
 }
 
 h2 {
@@ -162,7 +163,7 @@ header {
   justify-content: center;
   align-items: center: center;
   flex-flow: row wrap;
-  background-color: #C0C8D4;
+  background-color: #F7F8FD;
 }
 
 header .content-wrapper {
@@ -204,8 +205,35 @@ header nav ul li {
   padding: 0 10px;
 }
 
+header a {
+  color: #DAB9A8;
+}
+
+/*Hero Area*/
+
+.hero-area {
+  background: url("../img/hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .hero-area h1 {
     font-size: 3em;
+    margin: 0;
+    color: #F7F8FD;
+    margin-top: 10vh;
+    padding-left: 10px;
+}
+
+.hero-area span {
+  box-shadow: 0 0 0 10px rgba(122,124,139, 0.7);
+  background-color: rgba(122,124,139, 0.7);
+  box-decoration-break: clone;
+  line-height: 2.2;
 }
 /* ==========================================================================
    Helper classes
