@@ -97,7 +97,116 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*General Styles*/
 
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #3C6280;
+  font-size: 1em;
+  line-height: normal;
+}
+
+ul, ol {
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3C6280;
+}
+
+a:hover {
+  color: #D8A44A;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1.125em;
+}
+
+img {
+  width: 100%;
+}
+
+.content-wrapper {
+  width: 90%;
+}
+
+/* ------------ MOBILE STYLES -------------*/
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center: center;
+  flex-flow: row wrap;
+  background-color: #C0C8D4;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center: center;
+  flex-direction: column;
+}
+
+header #tag-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+header h3 {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 1.25em;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul li {
+  padding: 0 10px;
+}
+
+.hero-area h1 {
+    font-size: 3em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +372,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
