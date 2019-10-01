@@ -147,7 +147,7 @@ h3 {
 }
 
 p {
-  font-size: 1.125em;
+  font-size: 1.25em;
 }
 
 img {
@@ -289,7 +289,51 @@ article {
   width: 75%;
 }
 
+/*Contact Section*/
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F8FD;
+}
 
+#contact .content-wrapper {
+  padding: 50px 0;
+}
+
+.hire-me, .social, .meet-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+#contact address p {
+  font-style:normal;
+}
+#contact p {
+  text-align: center;
+}
+
+#contact figure {
+  width: 100%;
+  margin: 20px 0;
+}
+
+#contact iframe {
+  width: 100%;
+}
+
+.social-icons {
+  padding: 20px 0;
+}
+
+.fab {
+  color: #DAB9A8;
+  font-size: 2.5em;
+  padding: 0 10px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
