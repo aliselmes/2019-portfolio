@@ -137,6 +137,9 @@ h1 {
 
 h2 {
   font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+  color: #DAB9A8;
 }
 
 h3 {
@@ -155,6 +158,11 @@ img {
   width: 90%;
 }
 
+figure {
+  width: 100%;
+  border: solid 2px #DAB9A8;
+  margin: 0;
+}
 /* ------------ MOBILE STYLES -------------*/
 
 /*Header*/
@@ -235,6 +243,30 @@ header a {
   box-decoration-break: clone;
   line-height: 2.2;
 }
+
+/*Work Section*/
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F8FD;
+}
+
+#work .content-wrapper {
+  padding: 50px 0;
+}
+
+#rogue-pickings-text, #jubilee-austen-text, #unplugged-text {
+  padding: 20px 0;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
