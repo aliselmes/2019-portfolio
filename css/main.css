@@ -186,7 +186,7 @@ header #tag-line {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 header h3 {
@@ -215,6 +215,10 @@ header nav ul li {
 
 header a {
   color: #DAB9A8;
+}
+
+header h2 {
+  color: #7A7C8B;
 }
 
 /*Hero Area*/
@@ -249,11 +253,16 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
   background-color: #F7F8FD;
 }
 
 #work .content-wrapper {
-  padding: 50px 0;
+  padding: 25px 0 50px 0;
+}
+
+#work h2 {
+  padding-top: 50px;
 }
 
 #rogue-pickings-text, #jubilee-austen-text, #unplugged-text {
@@ -294,11 +303,17 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
   background-color: #F7F8FD;
 }
 
 #contact .content-wrapper {
-  padding: 50px 0;
+  padding: 25px 0 50px 0;
+
+}
+
+#contact h2 {
+  padding-top: 50px;
 }
 
 .hire-me, .social, .meet-me {
@@ -453,15 +468,164 @@ footer .far {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for tablets */
+  .content-wrapper {
+    width: 80%;
+  }
+
+  .hero-area h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  ul, ol {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  #work figure {
+    width: 80%;
+  }
+
+  #work h2 {
+    width: 80%;
+  }
+
+  #about figure {
+    width: 50%;
+  }
+
+  #contact figure {
+    width: 80%;
+  }
+
+  #contact h2 {
+    width: 80%;
+  }
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 1200px) {
+  /* Style adjustments for desktop */
+  .content-wrapper {
+    width: 90%;
+  }
+
+
+  header .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center: center;
+    flex-flow: row wrap;
+  }
+
+  header h2 {
+    color: #DAB9A8;
+  }
+
+  header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: row wrap;
+      width: 40%;
+  }
+
+  header a {
+    color: #7A7C8B
+  }
+
+  .hero-area h1 {
+    font-size: 5em;
+    width: 60%;
+  }
+
+  #work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+#work article {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  margin: 50px 0;
+}
+
+#rogue-pickings-text, #jubilee-austen-text, #unplugged-text, #work figure {
+  width: 40%;
+  padding: 0;
+}
+
+#rogue-pickings-text p, #jubilee-austen-text p, #unplugged-text p {
+  margin-top: 0;
+}
+
+
+  #work h2 {
+    padding-top: 50px;
+  }
+
+  #work a:hover {
+    opacity: 0.3;
+  }
+
+  #about figure {
+    width: 30%;
+    margin: 50px 0;
+  }
+
+  #about-text {
+    width: 80%;
+  }
+
+  #contact .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
+
+  .hire-me, .social, .meet-me {
+    width: 30%;
+  }
+
+  .social-icons .fab:hover {
+    opacity: 0.3;
+  }
+
+  footer .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  footer .language-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+
+  footer .far {
+    padding: 0 20px;
+  }
+
+  footer .copyright {
+    width: 40%;
+  }
+
 }
 
 /* ==========================================================================
