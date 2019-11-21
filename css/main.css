@@ -227,14 +227,14 @@ header h2 {
   background: url("../img/hero-img.jpg");
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
 .hero-area h1 {
-    font-size: 3em;
+    font-size: 2.4em;
     margin: 0;
     color: #F7F8FD;
     margin-top: 10vh;
@@ -247,6 +247,7 @@ header h2 {
   box-decoration-break: clone;
   line-height: 2.2;
 }
+
 
 /*Work Section*/
 #work {
@@ -263,6 +264,32 @@ header h2 {
 
 #work h2 {
   padding-top: 50px;
+}
+
+#work h3 {
+  width: 80%;
+  text-align: center;
+  padding: 25px 0 25px 0;
+  margin: 0;
+  font-size: 1.25em;
+}
+
+hr {
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+height: 100px;
+background-color:#666;
+margin: 0;
+}
+
+.subtitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 25px;
+  margin: 0;
 }
 
 #rogue-pickings-text, #jubilee-austen-text, #unplugged-text {
@@ -542,6 +569,10 @@ footer .far {
     color: #7A7C8B
   }
 
+.hero-area {
+  height: 80vh;
+}
+
   .hero-area h1 {
     font-size: 5em;
     width: 60%;
@@ -579,6 +610,10 @@ footer .far {
   #work a:hover {
     opacity: 0.3;
   }
+
+hr {
+  width: 100%;
+}
 
   #about figure {
     width: 30%;
