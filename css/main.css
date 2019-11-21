@@ -227,7 +227,7 @@ header h2 {
   background: url("../img/hero-img.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
