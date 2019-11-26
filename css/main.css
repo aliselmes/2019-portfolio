@@ -294,7 +294,7 @@ margin: 0;
   margin: 0;
 }
 
-#rogue-pickings-text, #jubilee-austen-text, #unplugged-text {
+#rogue-pickings-text, #jubilee-austen-text, #unplugged-text, #magic-text, #lolcat-text, #map-text {
   padding: 20px 0;
 }
 
@@ -595,12 +595,12 @@ footer .far {
   margin: 50px 0;
 }
 
-#rogue-pickings-text, #jubilee-austen-text, #unplugged-text, #work figure {
+#rogue-pickings-text, #jubilee-austen-text, #unplugged-text, #magic-text, #lolcat-text, #map-text, #work figure {
   width: 40%;
   padding: 0;
 }
 
-#rogue-pickings-text p, #jubilee-austen-text p, #unplugged-text p {
+#rogue-pickings-text p, #jubilee-austen-text p, #unplugged-text p, #magic-text p, #lolcat-text p, #map-text p {
   margin-top: 0;
 }
 
