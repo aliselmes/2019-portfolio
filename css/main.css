@@ -541,7 +541,7 @@ footer .far {
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   /* Style adjustments for desktop */
   .content-wrapper {
     width: 90%;
