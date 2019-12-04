@@ -169,7 +169,7 @@ figure {
 header {
   display: flex;
   justify-content: center;
-  align-items: center: center;
+  align-items: center;
   flex-flow: row wrap;
   background-color: #F7F8FD;
 }
@@ -177,7 +177,7 @@ header {
 header .content-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -551,7 +551,7 @@ footer .far {
   header .content-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center: center;
+    align-items: center;
     flex-flow: row wrap;
   }
 
